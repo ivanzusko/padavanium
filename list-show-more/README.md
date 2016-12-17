@@ -6,6 +6,7 @@ You will create a list of items(e.g. news) with this requirements:
 - Show only 3 items at first (and 3 items each time when neccessary to show more)
 - Add possibility for user (add button 'Show more') to see more items
 - Add possibility for user to enable/disable infinite scroll (when user scrolls all the way down the new items appear - 3 items each time)
+- Add possibility to scroll all the way up (add button 'Scroll Top' with easing animation)
 
 ## The flow
 First you will need local server (in order to be able to make request to `src/items.json`). This one is pretty simple: [http-server](https://www.npmjs.com/package/http-server)
@@ -38,5 +39,6 @@ http-server
 ```
 After that go to `http://localhost:8080` and you will see your page.
 Please, use `items.json` as a mock of remote server response. There are only three items, so every time user click "show more" button just show new items which are in fact just the same items were shown before.
+Please, ensure that your `scroll to top` animation is working on all major browsers (IE11, Edge, last version of FireFox, Opera and Chrome).
 
 And please... no __jQuery__ :)
