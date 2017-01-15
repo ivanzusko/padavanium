@@ -3,7 +3,7 @@
 ## Task
 You will create a list of items(e.g. news) with this requirements:
 - List should be responsive
-- Show only 3 items at first (and 3 items each time when neccessary to show more)
+- Show only 3 items at first (and 3 items each time when necessary to show more)
 - Add possibility for user (add button 'Show more') to see more items
 - Add possibility for user to enable/disable infinite scroll (when user scrolls all the way down the new items appear - 3 items each time)
 - Add possibility to scroll all the way up (add button 'Scroll Top' with easing animation)
@@ -11,7 +11,7 @@ You will create a list of items(e.g. news) with this requirements:
 ## The flow
 First you will need local server (in order to be able to make request to `src/items.json`). This one is pretty simple: [http-server](https://www.npmjs.com/package/http-server)
 
-First, install it globaly:
+First, install it globally:
 ```sh
 npm i http-server -g
 ```
